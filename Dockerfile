@@ -16,7 +16,7 @@ RUN \
     py-yaml \
     bash \
     tar && \
-  pip install --upgrade pip python-keyczar && \
+  pip install --upgrade pip python-keyczar jmespath && \
   rm -rf /var/cache/apk/*
 
 RUN mkdir /etc/ansible/ /ansible
